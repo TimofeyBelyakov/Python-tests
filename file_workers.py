@@ -3,4 +3,5 @@ def read_from_file(path):
         return file.readlines()
 
 
-print(read_from_file("prod_file.txt"))
+if __name__ == "__main__":
+    print(read_from_file("prod_file.txt"))
